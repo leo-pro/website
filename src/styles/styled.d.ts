@@ -5,6 +5,7 @@ declare module 'styled-components' {
       title: string
       colors: {
          background: string
+         title: string
          black: string
          white: string
          danger: string
@@ -39,12 +40,32 @@ declare module 'styled-components' {
             900: string
          }
       }
+      typography: {
+         bodyType: string
+         titleType?: string
+
+         fontSize: {
+            xl: string
+            md: string
+            sm: string
+            xs: string
+            h1: string
+            h2: string
+            h3: string
+         }
+
+         fontWeight: {
+            medium: string
+            semiBold: string
+         }
+      }
    }
 
    export interface CustomTheme {
       title: string
       colors: {
          background: string
+         title: string
          black: string
          white: string
          danger: string
@@ -77,6 +98,25 @@ declare module 'styled-components' {
             700: string
             800: string
             900: string
+         }
+      }
+      typography: {
+         bodyType: string
+         titleType?: string
+
+         fontSize: {
+            xl: string
+            md: string
+            sm: string
+            xs: string
+            h1: string
+            h2: string
+            h3: string
+         }
+
+         fontWeight: {
+            medium: string
+            semiBold: string
          }
       }
    }

@@ -2,6 +2,7 @@ export default {
    title: 'light',
    colors: {
       background: '#F0F0F0',
+      title: '#333333',
       black: '#000000',
       white: '#FFFFFF',
       danger: '#FB3434',
@@ -35,6 +36,26 @@ export default {
          700: '#4F1A78',
          800: '#3C0765',
          900: '#2D034D'
+      }
+   },
+   typography: {
+      bodyType: 'Open Sans',
+      titleType: 'Oswald',
+
+      fontSize: {
+         xl: '2rem',
+         md: '.938rem',
+         sm: '.813rem',
+         xs: '.75rem',
+         h1: '1.5rem',
+         h2: '1.25rem',
+         h3: '1.125rem'
+      },
+
+      fontWeight: {
+         medium: '500',
+         semiBold: '600',
+         bold: '700'
       }
    }
 }
