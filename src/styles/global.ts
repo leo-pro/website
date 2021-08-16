@@ -19,7 +19,7 @@ export default createGlobalStyle`
             ? props.theme.colors.white
             : props.theme.colors.black};
       font-size: ${props => props.theme.typography.fontSize.md};
-      font-family: ${props => props.theme.typography.bodyType}, sans-serif;
+      font-family: ${props => props.theme.typography.fontFamily}, sans-serif;
    }
 
    h1,h2,h3,h4{
@@ -34,40 +34,4 @@ export default createGlobalStyle`
    a{
       text-decoration: none;
    }
-
-   img{
-      max-width: 100%;
-      height: auto;
-   }
-
-   section{
-      padding: 2rem 0 4rem;
-   }
-
-   .section__title{
-      font-size: ${props => props.theme.typography.fontSize.h1};
-   }
-
-   .section__subtitle{
-      display: block;
-      font-size: ${props => props.theme.typography.fontSize.sm};
-      margin-bottom: 3rem;
-   }
-
-   .section__title,
-   .section__subtitle{
-      text-align: center;
-   }
-
-   .container{
-      max-width: 768px;
-      margin-left: 1.5rem;
-      margin-right: 1.5rem;
-   }
-
-   .grid{
-      display: grid;
-      gap: 1.5rem;
-   }
-
 `

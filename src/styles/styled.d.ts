@@ -41,8 +41,7 @@ declare module 'styled-components' {
          }
       }
       typography: {
-         bodyType: string
-         titleType?: string
+         fontFamily: string
 
          fontSize: {
             xl: string
@@ -101,8 +100,7 @@ declare module 'styled-components' {
          }
       }
       typography: {
-         bodyType: string
-         titleType?: string
+         fontFamily: string
 
          fontSize: {
             xl: string

@@ -39,8 +39,7 @@ export default {
       }
    },
    typography: {
-      bodyType: 'Open Sans',
-      titleType: 'Oswald',
+      fontFamily: 'Poppins',
 
       fontSize: {
          xl: '2rem',
