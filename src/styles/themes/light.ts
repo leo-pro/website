@@ -1,6 +1,7 @@
 export default {
    title: 'light',
    colors: {
+      primary: '#00B0BD',
       background: '#F0F0F0',
       title: '#333333',
       black: '#000000',
@@ -22,7 +23,7 @@ export default {
          300: '#E0E0E0',
          200: '#EEEEEE',
          100: '#F7F7F7',
-         50: '#FDFDFD'
+         50: '#FDFDFD',
       },
 
       brand: {
@@ -35,8 +36,8 @@ export default {
          600: '#672C94',
          700: '#4F1A78',
          800: '#3C0765',
-         900: '#2D034D'
-      }
+         900: '#2D034D',
+      },
    },
    typography: {
       fontFamily: 'Poppins',
@@ -48,13 +49,13 @@ export default {
          xs: '.75rem',
          h1: '1.5rem',
          h2: '1.25rem',
-         h3: '1.125rem'
+         h3: '1.125rem',
       },
 
       fontWeight: {
          medium: '500',
          semiBold: '600',
-         bold: '700'
-      }
-   }
+         bold: '700',
+      },
+   },
 }
