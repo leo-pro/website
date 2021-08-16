@@ -4,6 +4,7 @@ declare module 'styled-components' {
    export interface DefaultTheme {
       title: string
       colors: {
+         primary: string
          background: string
          title: string
          black: string
@@ -63,6 +64,7 @@ declare module 'styled-components' {
    export interface CustomTheme {
       title: string
       colors: {
+         primary: string
          background: string
          title: string
          black: string

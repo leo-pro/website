@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Introduction } from '../components/Introduction'
 import { Menu } from '../components/Menu'
 
 export default function Home(): JSX.Element {
@@ -10,6 +11,7 @@ export default function Home(): JSX.Element {
             <link rel="icon" href="/favicon.ico" />
          </Head>
          <Menu />
+         <Introduction />
       </>
    )
 }
