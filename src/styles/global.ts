@@ -12,6 +12,7 @@ export default createGlobalStyle`
    }
 
    body{
+      margin: 0 0 3rem 0;
       background-color: ${props => props.theme.colors.background};
       color: ${props =>
          props.theme.title === 'dark'
@@ -50,7 +51,7 @@ export default createGlobalStyle`
    .section__subtitle{
       display: block;
       font-size: ${props => props.theme.typography.fontSize.sm};
-      margin: 3rem;
+      margin-bottom: 3rem;
    }
 
    .section__title,
