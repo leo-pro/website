@@ -18,7 +18,7 @@ export default createGlobalStyle`
          props.theme.title === 'dark'
             ? props.theme.colors.white
             : props.theme.colors.black};
-      font-size: ${props => props.theme.typography.fontSize.md};
+      font-size: 1rem;
       font-family: ${props => props.theme.typography.fontFamily}, sans-serif;
    }
 

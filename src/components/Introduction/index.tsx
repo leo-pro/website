@@ -18,7 +18,7 @@ export function Introduction() {
                create innovative solutions with a focus on user experience and
                business growth.
             </Biography>
-            <ActionButton>Contact Me</ActionButton>
+            <ActionButton>Contact me</ActionButton>
             <IconsBar>
                <Link href="https://www.github.com/leo-pro">
                   <a target="blank">

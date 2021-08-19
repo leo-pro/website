@@ -13,14 +13,15 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.0031185) scale(0.00201247)"/>
 </pattern>
-<linearGradient id="paint0_linear" x1="-1.79559e-06" y1="213.812" x2="482.001" y2="213.812" gradientUnits="userSpaceOnUse">
-<stop stop-color="#00C6C2"/>
-<stop offset="0.395833" stop-color="#00B0BD"/>
-<stop offset="1" stop-color="#3730A3"/>
+<linearGradient id="paint0_linear" x1="-7.09272e-08" y1="63.4754" x2="505.719" y2="100.099" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3730A3"/>
+<stop offset="0.21875" stop-color="#2D48A8"/>
+<stop offset="1" stop-color="#00B0BD"/>
+<stop offset="1" stop-color="#00C6C2"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="-1.79559e-06" y1="213.812" x2="482.001" y2="213.812" gradientUnits="userSpaceOnUse">
 <stop stop-color="#00C6C2"/>
-<stop offset="0.395833" stop-color="#00B0BD"/>
+<stop offset="0.0001" stop-color="#00B0BD"/>
 <stop offset="1" stop-color="#3730A3"/>
 </linearGradient>
 <clipPath id="clip0">
