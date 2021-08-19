@@ -46,6 +46,7 @@ export const Subtitle = styled.h3`
    font-size: 2rem;
    font-weight: 400;
    margin-bottom: 1.25rem;
+   color: ${props => props.theme.colors.subtitle};
 
    @media screen and (max-width: ${props => props.theme.breakpoints.md}) {
       font-size: 1.5rem;
@@ -55,6 +56,7 @@ export const Subtitle = styled.h3`
 export const Biography = styled.p`
    font-size: 1.25rem;
    font-weight: 400;
+   color: ${props => props.theme.colors.subtitle};
 
    @media screen and (max-width: ${props => props.theme.breakpoints.md}) {
       font-size: 1rem;
@@ -67,10 +69,11 @@ export const IconsBar = styled.div`
 
    a svg {
       color: ${props => props.theme.colors.white};
-      width: 32px;
-      height: 32px;
+      width: 2rem;
+      height: 2rem;
       margin-top: 1.25rem;
       margin-right: 4rem;
+      transition: 0.3s;
 
       &:hover {
          color: ${props => props.theme.colors.primary};
