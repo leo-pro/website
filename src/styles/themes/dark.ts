@@ -1,16 +1,34 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default {
    title: 'dark',
+   breakpoints: {
+      sm: '30rem',
+      md: '48rem',
+      lg: '62rem',
+      xl: '80rem',
+      '2xl': '96rem',
+   },
    colors: {
       primary: '#00B0BD',
+      secondary: '#3730A3',
+      tertiary: '#158582',
       background: '#14141B',
+      backgroundAlternative: '#324B4A',
       title: '#FFFFFF',
+      text: '#FFFFFF',
+      lightGrey: '#D3D3D3',
+      subtitle: '#EEEEEE',
+      buttonText: '#EEEEEE',
+
       black: '#000000',
       white: '#FFFFFF',
+
+      gradientTwoColors:
+         'linear-gradient(90deg, #00C6C2 0%, #00B0BD 0.01%, #3730A3 100%)',
+
       danger: '#FB3434',
       dangerHover: '#ED3232',
       success: '#1BA81B',
-      successLight: 'rgba(27, 168, 27, 0.14)',
-      successLighter: 'rgba(27, 168, 27, 0.06)',
       warning: '#ED8936',
 
       gray: {
@@ -24,19 +42,6 @@ export default {
          200: '#EEEEEE',
          100: '#F7F7F7',
          50: '#FDFDFD',
-      },
-
-      brand: {
-         50: '#FBF5FF',
-         100: '#F0DFFD',
-         200: '#E2C3FA',
-         300: '#CFA6EE',
-         400: '#B581DE',
-         500: '#8D54B8',
-         600: '#672C94',
-         700: '#4F1A78',
-         800: '#3C0765',
-         900: '#2D034D',
       },
    },
    typography: {
