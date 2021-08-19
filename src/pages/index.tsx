@@ -7,9 +7,9 @@ export default function Home(): JSX.Element {
    return (
       <>
          <Head>
-            <title>Home | DevLeo</title>
-            <meta name="description" content="Devleo website" />
-            <link rel="icon" href="/favicon.ico" />
+            <meta charSet="utf-8" />
+            <meta name="language" content="en" />
+            <title>DevLeo - Frontend Engineer & UX/UI Designer</title>
          </Head>
          <Menu />
          <Introduction />
