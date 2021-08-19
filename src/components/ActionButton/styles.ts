@@ -19,4 +19,8 @@ export const Button = styled.button`
    &:hover {
       filter: brightness(0.8);
    }
+
+   @media screen and (max-width: ${props => props.theme.breakpoints.sm}) {
+      width: 100%;
+   }
 `

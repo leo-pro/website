@@ -13,6 +13,7 @@ export default {
       secondary: '#3730A3',
       tertiary: '#158582',
       background: '#14141B',
+      backgroundLight: '#1D1E26',
       backgroundAlternative: '#324B4A',
       title: '#FFFFFF',
       text: '#FFFFFF',

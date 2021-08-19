@@ -15,6 +15,7 @@ declare module 'styled-components' {
          secondary: string
          tertiary: string
          background: string
+         backgroundLight: string
          backgroundAlternative: string
          title: string
          text: string
@@ -79,6 +80,7 @@ declare module 'styled-components' {
          secondary: string
          tertiary: string
          background: string
+         backgroundLight: string
          backgroundAlternative: string
          title: string
          text: string

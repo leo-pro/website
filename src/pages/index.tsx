@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Contact } from '../components/Contact'
 import { Introduction } from '../components/Introduction'
 import { Menu } from '../components/Menu'
 
@@ -12,6 +13,7 @@ export default function Home(): JSX.Element {
          </Head>
          <Menu />
          <Introduction />
+         <Contact />
       </>
    )
 }
